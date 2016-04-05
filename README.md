@@ -2,6 +2,12 @@
 A lot of companies are relying on Google Analytics Free for tracking and marketing investment optimization. This code aims to give a quick workaround on how to extract path-to-purchase data, either to integrate it in DMPs or to run attribution models.
 
 ##### Overview
+
+###### ETL process overview:
+![alt text](https://github.com/marcoikeda/etl_ga/blob/master/attachments/GA_ETL.jpg?raw=true)
+
+Step-by-step implementation:
+
 1 - Implement cookie and timestamp tracking with custom dimension
 
 2 - Get GA API key
